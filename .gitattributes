@@ -1,2 +1,2 @@
-css/semantic.* linguist-vendored=false
-css/icon.css linguist-vendored=false
+css/semantic.* linguist-detectable=false
+css/icon.css linguist-detectable=false
