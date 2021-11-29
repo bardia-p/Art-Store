@@ -18,21 +18,21 @@ In order to run the program make sure to have the following installed:
 
 1. Make sure XAMPP (or LAMP) is installed and running so you can have an instance of an Apache server and a MySQL server running. The application can be installed from the following link:
 
-[Install XAMPP](https://www.apachefriends.org/download.html)
+    [Install XAMPP](https://www.apachefriends.org/download.html)
 
 2. Once XAMPP is installed make sure you have a local version of the book store database. The DDL file for the database is located under the SQL folder.
 
 3. In order to take advantage of caching in the assignment make sure you have memcache installed:
 
-The version of XAMPP and memcached used in this assignment can be found using on the following drive:
+    The version of XAMPP and memcached used in this assignment can be found on the following shared drive:
 
-[Click here for the installation links!](https://drive.google.com/drive/folders/1vdFZ2BPlWMoAgCF3yh4MqtRgMg2j3Lcl?usp=sharing)
+    [Click here for the installation links!](https://drive.google.com/drive/folders/1vdFZ2BPlWMoAgCF3yh4MqtRgMg2j3Lcl?usp=sharing)
 
 4. Once everything is installed simply move the folder to the "htdocs" under your XAMPP installation folder so you can then access it via localhost.
 
-```
-http://localhost/art-store/browse-paintings.php
-```
+    ```
+    http://localhost/art-store/browse-paintings.php
+    ```
 
 ## How does the website work?
 - The main entry point of the program is the "browse-paintings.php" which consists of different filters that can be used to filter the paintings and present the results to the user.
