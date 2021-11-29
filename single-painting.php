@@ -26,7 +26,7 @@
       }
 
       if ($_SERVER["REQUEST_METHOD"] == "GET"){
-        if (isset($_GET["id"])){
+        if (isset($_GET["id"]) && is_numeric($_GET["id"])){
           $id = $_GET["id"];
         } else {
           $id = 441;

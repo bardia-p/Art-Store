@@ -10,9 +10,16 @@
 ?>
 
 <section class="eleven wide column">
-  <h1 class="ui header">Paintings</h1>
   <ul class="ui divided items" id="paintingsList">
 
+  <h1 class="ui header">Favourite Paintings</h1>
+  
+  <li class="item">
+    <a class="ui icon button" href="remove-favourites.php?id=-1">
+      Remove All Favourites
+    </a>
+  </li>
+  
   <?php 
     
     if (isset($_SESSION['Favourites'])){
@@ -27,7 +34,7 @@
                 <div class="extra">
                     <a class="ui icon orange button" href="cart.php?id='.$painting[0].'"><i class="add to cart icon"></i></a>
                     <a class="ui icon button" href="remove-favourites.php?id='.$painting[0].'">
-                        Remove From Favourites
+                        Remove from Favourites
                     </a>
                 </div>        
                 </div>      
